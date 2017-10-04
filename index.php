@@ -84,4 +84,99 @@ echo $dateElements[$i]." ";
 }
 echo "<br />";
 
+
+//10
+
+function findLeapYearwhile($year)
+{
+echo "<br />Done with WHILE function<br />";
+$i=0;
+while($i<count($year))
+
+{
+if(((int)$year[$i])%4==0)
+{
+echo "True<br />";
+}
+else
+{
+echo "False<br />";
+}
+++$i;
+
+echo "<br />";
+}
+}
+echo "<br />Done with SWITCH case<br />";
+for ($i=0;$i<count($year);$i++)
+
+{echo "<br />";
+switch ($year{$i})
+{
+case "2012": if(((int)$year[$i])%4==0)
+{
+echo "True<br />";
+}
+else
+{
+echo "False<br />";
+}
+
+break;
+case "396": if(((int)$year[$i])%4==0)
+{
+echo "True<br />";
+}
+else
+{
+echo "False<br />";
+}
+
+break;
+case "300": if(((int)$year[$i])%4==0)
+{
+echo "True<br />";
+}
+else
+{
+echo "False<br />";
+}
+
+break;
+case "2000": if(((int)$year[$i])%4==0)
+{
+echo "True<br />";
+}
+else
+{
+echo "False<br />";
+}
+
+break;
+case "1089": if(((int)$year[$i])%4==0)
+{
+echo "True<br />";
+}
+else
+{
+echo "False<br />";
+}
+
+break;
+case "1100": if(((int)$year[$i])%4==0)
+{
+echo "True<br />";
+}
+else
+{
+echo "False<br />";
+}
+
+break;
+}
+}
+
+
 ?>
+
+
